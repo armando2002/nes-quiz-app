@@ -1,0 +1,129 @@
+html { 
+  background: url(bg-stars.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+.title {
+  color: #8E714F;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 50px;
+  flex: 1;
+  align-self: center;
+}
+
+legend {
+  display: none;
+}
+
+fieldset {
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+  padding-top: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  border: none;
+}
+
+.question {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.answer-list {
+  flex-direction: column;
+}
+
+form {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+.row {
+  display: flex;
+}
+
+.answer {
+  color: black;
+  border: 5px #F9002C solid;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5px;
+  background-color: #F7DD42;
+  flex: 1;
+  font-family: 'Press Start 2P', sans-serif;
+  width: 75%;
+  max-width: 75%;
+  align-self: center;
+}
+
+#correctAnswer {
+  padding: 5px;
+  margin: 5px;
+  display: none;
+}
+
+#incorrectAnswer {  
+  padding: 5px;
+  margin: 5px;
+  display: none;
+}
+
+.continue {
+  padding: 5px;
+  margin: 5px;
+  display: none;
+  height: 20%;
+}
+
+.score {
+  font-family: 'Press Start 2P', sans-serif;
+  font-weight: bold;
+  flex: 1;
+  padding-top: 10px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.start {
+  font-family: 'Press Start 2P', sans-serif;
+  color: black;
+  border: 5px #F9002C solid;
+  border-radius: 5px;
+  background-color: #F7DD42;
+  flex: 1;
+  margin: 20px;
+}
+
+.topbar {
+  justify-content: space-between;
+}
+
+.result {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  img {
+    max-width: 750px;
+  }
+}
+
+p {
+  text-align: center;
+}
